@@ -11,11 +11,11 @@
 <body id="marvelBody" style="cursor:default;">
     <h1 style="color: goldenrod; font-size: 50px; height: 330px; margin-top: 0; font-family: 'Capture it', arial;">MARVEL</h1>
     <div class="megablock">
-        <div class="marvelBlock" id="b1"><h2 class="msecret">HEROES</h2></div>
-        <div class="marvelBlock" id="b2"><h2 class="msecret">VILLAINS</h2></div>
-        <div class="marvelBlock" id="b3"><h2 class="msecret">CHRONOLOGY</h2></div>
+        <div class="marvelBlock" onclick="h()" id="b1"><h2 class="msecret">HEROES</h2></div>
+        <div class="marvelBlock" onclick="v()" id="b2"><h2 class="msecret">VILLAINS</h2></div>
+        <div class="marvelBlock" onclick="ch()" id="b3"><h2 class="msecret">CHRONOLOGY</h2></div>
         <!-- <div class="marvelBlock" id="b4"><h2 class="msecret"></h2></div> -->
-        <div class="marvelBlock" id="b5"><h2 class="msecret">NEWS</h2></div>
+        <div class="marvelBlock" onclick="n()" id="b5"><h2 class="msecret">NEWS</h2></div>
     </div>
     <div class="mymenu" style="margin-top: 80px;">
         <ul>
@@ -25,5 +25,19 @@
             <li><a href="#about">AVATAR</a></li> -->
           </ul>
     </div>
+    <script>
+        function h(){
+            window.location.href = "heroes.html"
+        }
+        function v(){
+            window.location.href = "villains.html"
+        }
+        function ch(){
+            window.location.href = "chronology.html"
+        }
+        function n(){
+            window.location.href = "news.html"
+        }
+    </script>
 </body>
 </html>
