@@ -1,4 +1,4 @@
-body {
+#marvelBody {
     background-image: url('./img/mBack.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,7 +10,6 @@ body {
     margin: 0;
     margin-top: 8px;
     padding: 0;
-    font-family: 'Capture it', arial;
 }
 
 .megablock {
@@ -22,7 +21,7 @@ body {
     align-items: center;
 }
 
-.block {
+.marvelBlock {
     height: 80%;
     width: 210px;
     background: rgb(226, 54, 54);
@@ -57,23 +56,72 @@ body {
 }
 
 .mymenu ul li:hover {
-    /* background-color: dimgrey; */
+    /* background-color: darkorange; */
     border: 2px solid goldenrod;
     border-radius: 15px;
 }
 
-.block:hover {
+.marvelBlock:hover {
     width: 300px;
     height: 95%;
     transform: rotate(360deg);
     -webkit-box-shadow: inset 0px -85px 150px 0px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: inset 0px -85px 150px 0px rgba(0, 0, 0, 0.7);
     box-shadow: inset 0px -85px 150px 0px rgba(0, 0, 0, 0.7);
-    
 }
 
-.secret {
+.msecret {
     text-align: center;
     color: #e24a36;
     font-size: 28px;
+}
+
+#DCBody {
+    background-image: url('https://flytothesky.ru/wp-content/uploads/2018/02/1-13.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.DCblock {
+    height: 80%;
+    width: 210px;
+    background: rgb(2, 130, 249);
+    background: radial-gradient(circle, rgba(2, 130, 249, 1) 0%, rgba(2, 82, 249, 1) 50%, rgba(2, 130, 249, 1) 100%);
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    transition: 700ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.DCsecret {
+    text-align: center;
+    color: #0282f9;
+    font-size: 28px;
+}
+
+.DCblock:hover {
+    width: 300px;
+    height: 95%;
+    transform: rotate(360deg);
+    -webkit-box-shadow: inset 0px -85px 150px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: inset 0px -85px 150px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0px -85px 150px 0px rgba(0, 0, 0, 0.7);
+}
+
+#mHeroes {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
