@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="DCBody" style="cursor: default;">
+    <h1 style="color: goldenrod; font-size: 50px; height: 330px; margin-top: 0; font-family: 'Capture it', arial;">DC</h1>
+    <div class="megablock">
+        <div class="DCblock" onclick="h()" id="b1"><h2 class="DCsecret">HEROES</h2></div>
+        <div class="DCblock" onclick="v()" id="b2"><h2 class="DCsecret">VILLAINS</h2></div>
+        <div class="DCblock" onclick="ch()" id="b3"><h2 class="DCsecret">CHRONOLOGY</h2></div>
+        <!-- <div class="DCblock" id="b4"><h2 class="DCsecret"></h2></div> -->
+        <div class="DCblock" onclick="n()" id="b5"><h2 class="DCsecret">NEWS</h2></div>
+    </div>
+    <div class="mymenu" style="margin-top: 80px;">
+        <ul>
+            <li class="active"><a  href="/">MARVEL</a></li>
+            <li><a href="/dc">DC</a></li>
+            <!-- <li><a href="#contact">H. POTTER</a></li>
+            <li><a href="#about">AVATAR</a></li> -->
+          </ul>
+    </div>
+    <script>
+        function h(){
+            window.location.href = "/heroesDC"
+        }
+        function v(){
+            window.location.href = "/villainsDC"
+        }
+        function ch(){
+            window.location.href = "/chronologyDC"
+        }
+        function n(){
+            window.location.href = "/newsDC"
+        }
+    </script>
+</body>
+</html>

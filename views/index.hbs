@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="marvelBody" style="cursor:default;">
+    <div class="container" id="marvelBody" style="cursor: default;">
+        <h1 style="color: goldenrod; font-size: 50px; height: 330px; margin-top: 0; font-family: 'Capture it', arial;">
+            MARVEL</h1>
+        <div class="megablock">
+            <div class="marvelBlock" onclick="h()" id="b1">
+                <h2 class="msecret">HEROES</h2>
+            </div>
+            <div class="marvelBlock" onclick="v()" id="b2">
+                <h2 class="msecret">VILLAINS</h2>
+            </div>
+            <div class="marvelBlock" onclick="ch()" id="b3">
+                <h2 class="msecret">CHRONOLOGY</h2>
+            </div>
+            <!-- <div class="marvelBlock" id="b4"><h2 class="msecret"></h2></div> -->
+            <div class="marvelBlock" onclick="n()" id="b5">
+                <h2 class="msecret">NEWS</h2>
+            </div>
+        </div>
+        <div class="mymenu" style="margin-top: 80px;">
+            <ul>
+                <li class="active"><a href="/">MARVEL</a></li>
+                <li><a href="/dc">DC</a></li>
+                <!-- <li><a href="#contact">H. POTTER</a></li>
+            <li><a href="#about">AVATAR</a></li> -->
+            </ul>
+        </div>
+    </div>
+    <script>
+        function h() {
+            window.location.href = "/heroesMar"
+        }
+        function v() {
+            window.location.href = "/villainsMar"
+        }
+        function ch() {
+            window.location.href = "/chronologyMar"
+        }
+        function n() {
+            window.location.href = "/newsMar"
+        }
+    </script>
+</body>
+
+</html>
